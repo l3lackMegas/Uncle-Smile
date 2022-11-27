@@ -83,15 +83,15 @@ class CanvasArea {
         if(!this.transformNode) {
             this.transformNode = new Konva.Transformer({
                 flipEnabled: false,
-                padding: 30,
+                padding: 10,
             });
             this.contentLayer.add(this.transformNode);
         }
-        this.transformNode.anchorCornerRadius(40);
+        this.transformNode.anchorCornerRadius(10);
         this.transformNode.borderStroke('white');
         this.transformNode.anchorStroke('black');
         this.transformNode.anchorFill('white');
-        this.transformNode.anchorSize(40);
+        this.transformNode.anchorSize(20);
         // this.transformNode.nodes();
 
         // add a new feature, lets add ability to draw selection rectangle
